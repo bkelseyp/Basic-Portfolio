@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-image: url(../../assets/funky-lines/funky-lines.png);
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    width: 100%; 
+}
+
+nav {
+    margin: 0 auto;
+    height: 60px;
+    width: 960px;
+    padding-right: 20px;
+}
+
+.white-box {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+h1{
+    padding: 20px;
+    background-color: #4aaaa5;
+    width: 25%;
+    font-family: 'Georgia', Times, serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    float: right;
+    display: flex;
+    padding-top: 23px;
+}
+
+li {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding-left: 20px;
+    float: right;
+}
+
+
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: #777777;
+}
+
+li a:hover{
+    color: #4aaaa5;
+    font-weight: 600;
+}
+
+.contact-div{
+    margin: 0 auto;
+    padding: 20px;
+    height: 600px;
+    width: 960px;
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+hr{
+    margin-top: 25px; 
+    margin-bottom: 30px;
+}
+
+.profile-image {
+    height:180px;
+    width: 290px;
+    background-color: #4aaaa5;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    font-size: 17px;
+    font-family: A  rial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #5a5a5a;
+    float: none;
+}
+
+.wrap {
+    height: auto;
+    margin: 0 auto -90px; /* footer height + space */
+    min-height: 100%;
+    padding: 0 0 90px; /* footer height + space */
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+footer {
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    height: 70px;
+    display: block;
+    margin-top: 40px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+  }
